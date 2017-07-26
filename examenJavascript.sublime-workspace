@@ -1,0 +1,748 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"onke",
+				"onkeypress\tAttr"
+			],
+			[
+				"win",
+				"windowHeight"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"cle",
+				"clearInterval"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"border-botto",
+				"border-bottom-left-radius"
+			],
+			[
+				"border-bottom",
+				"border-bottom-right-radius"
+			],
+			[
+				"border-top",
+				"border-top-right-radius"
+			],
+			[
+				"border-bo",
+				"border-bottom-right-radius"
+			],
+			[
+				"borde-rad",
+				"border-bottom-left-radius"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"numar",
+				"numarAdaugat"
+			],
+			[
+				"fharenheit",
+				"fahrenheit"
+			],
+			[
+				"ziua",
+				"ziuaDeAzi2"
+			],
+			[
+				"asta",
+				"astaziZile"
+			],
+			[
+				"get",
+				"getMonth"
+			],
+			[
+				"cra",
+				"craciunLuni"
+			],
+			[
+				"craciun",
+				"craciunZile"
+			],
+			[
+				"getDa",
+				"getDay"
+			],
+			[
+				"se",
+				"semiPerimeter"
+			],
+			[
+				"backgroud-",
+				"background-color"
+			],
+			[
+				"bl",
+				"inline-block"
+			],
+			[
+				"invitati",
+				"invitatiDetaliati"
+			],
+			[
+				"inner",
+				"innerHeight"
+			],
+			[
+				"inde",
+				"z-index"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"fifi",
+				"fifiFisier"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"backgor",
+				"background-color"
+			],
+			[
+				"shadow",
+				"box-shadow"
+			],
+			[
+				"have",
+				"haveyoubeenonablinddate"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"ge",
+				"GET"
+			],
+			[
+				"border-bott",
+				"border-bottom-left-radius"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"na",
+				"nav_button"
+			],
+			[
+				"background-",
+				"background-position"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"text-ali",
+				"text-align-last"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"box-",
+				"box-shadow"
+			],
+			[
+				"flex",
+				"inline-flex"
+			],
+			[
+				"n",
+				"nowrap"
+			],
+			[
+				"ackgro",
+				"background-color"
+			],
+			[
+				"c",
+				"cellpadding\tAttr"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"al",
+				"align-content"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"bd",
+				"body\tTag"
+			],
+			[
+				"d",
+				"dotted"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"p",
+				"pozamichael"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"cell",
+				"cellspacing\tAttr"
+			],
+			[
+				"cel",
+				"cellspacing\tAttr"
+			],
+			[
+				"ce",
+				"cellspacing\tAttr"
+			],
+			[
+				"social",
+				"Social"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"mari",
+				"margin-left"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"witdh",
+				"width"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"inli",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n\n<html>\n<head>\n \n  <meta charset=\"utf-8\">\n  <link href=\"styles.css\" rel=\"stylesheet\">\n\n  <title>Patterns by Alexandru Marinescu - Social Events</title>\n\n</head>\n\n<body>\n  <div class=\"page\">\n    <div class=\"header\">\n       <div class=\"container\"> \n        <div class=\"logo\">\n          <a href=\"index.html\"><img src=\"images/logopatterns.jpg\" alt=\"logo Patterns\" title=\"Home\" /></a>\n        </div>\n        <div class=\"infopage\">\n          <p>Events & More - Photographer<br />Based in Bucharest, Romania</p>\n        </div>\n        <div class=\"nav\">\n          <ul>\n            <li><a href=\"index.html\">Portfolio</a>\n              <ul>\n                <li><a href=\"social_events.html\">Social Events</a></li>\n                <li><a href=\"parties.html\">Parties</a></li>\n                <li><a href=\"sports_events.html\">Sports Events</a></li>\n                <li><a href=\"wandering.html\">Wandering Around</a></li>      \n              </ul>\n            </li>\n            <li><a href=\"about.html\">About</a></li>\n            <li><a href=\"contact.html\">Contact</a></li>\n          </ul>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"vertical-text\">\n    \t<p>Patterns &nbsp; by &nbsp; Alexandru &nbsp; Marinescu</p>\n    </div>\n\n  <div class=\"filters\">\n      <div class=\"container\">\n        <a href=\"#\" class=\"selected page_title_a for_filter\"><h1 class=\"page_title\">SOCIAL EVENTS</h1></a>\n      </div>\n\n      <div class=\"ambele\">\n\n        <div class=\"parties1\">\n          <div class=\"event_name\">\n            <a href=\"#\" data-filter=\"ducu\" class=\"for_filter\"><h3>Ducu Bertzi @ Gradina Floreasca</h3></a>\n          </div>\n          <div class=\"event_photos_container parties_photos1 image\">\n              <a href=\"images/socialevents/ducubertzi1200x840.jpg\"><img src=\"images/socialevents/ducubertzi510x357.jpg\" alt=\"Ducu Bertzi\" title=\"Social Events - Ducu Bertzi @ Gradina Floreasca\" data-category=\"ducu\"/></a>\n          </div>\n          <div class=\"event_photos_container parties_photos1 image\">\n              <a href=\"images/socialevents/ducubertzi21200x801.jpg\"><img src=\"images/socialevents/ducubertzi1510x340.jpg\" alt=\"Ducu Bertzi\" title=\"Social Events - Ducu Bertzi @ Gradina Floreasca\" data-category=\"ducu\"/></a>\n          </div>\n          <div class=\"event_photos_container parties_photos1 image\">\n              <a href=\"images/socialevents/ducubertzi1200x792.jpg\"><img src=\"images/socialevents/ducubertzi2510x337.jpg\" alt=\"Ducu Bertzi\" title=\"Social Events - Ducu Bertzi @ Gradina Floreasca\" data-category=\"ducu\"/></a>\n          </div>\n          <div class=\"event_photos_container parties_photos1 image\">\n              <a href=\"images/socialevents/ducubertzi1200x801.jpg\"><img src=\"images/socialevents/ducubertzi3510x340.jpg\" alt=\"Ducu Bertzi\" title=\"Social Events - Ducu Bertzi @ Gradina Floreasca\" data-category=\"ducu\"/></a>\n          </div>\n        </div>\n\n      <div class=\"parties2\">\n        <div class=\"event_name\">\n          <a href=\"#\" data-filter=\"jezebel\" class=\"for_filter\"><h3>Jezebel @ Gradina Floreasca</h3></a>\n        </div>\n        <div class=\"event_photos_container parties_photos2 image\">\n            <a href=\"images/socialevents/jezebel1200x996.jpg\"><img src=\"images/socialevents/jezebel1510x423.jpg\" alt=\"Jezebel\" title=\"Social Events - Jezebel @ Gradina Floreasca\" data-category=\"jezebel\"/></a>\n        </div>\n        <div class=\"event_photos_container parties_photos2 image\">\n            <a href=\"images/socialevents/jezebel1200x1667.jpg\"><img src=\"images/socialevents/jezebel2510x708.jpg\" alt=\"Jezebel\" title=\"Social Events - Jezebel @ Gradina Floreasca\" data-category=\"jezebel\"/></a>\n        </div>\n        <div class=\"event_photos_container parties_photos2 image\">\n            <a href=\"images/socialevents/jezebel1200x801.jpg\"><img src=\"images/socialevents/jezebel3510x340.jpg\" alt=\"Jezebel\" title=\"Social Events - Jezebel @ Gradina Floreasca\" data-category=\"jezebel\"/></a>\n        </div>\n        <div class=\"event_photos_container parties_photos2 image\">\n            <a href=\"images/socialevents/jezebel1200x978.jpg\"><img src=\"images/socialevents/jezebel4510x416.jpg\" alt=\"Jezebel\" title=\"Social Events - Jezebel @ Gradina Floreasca\" data-category=\"jezebel\"/></a>\n        </div>\n      </div>\n\n    </div>\n  </div>\n\n\n    </div>\n\n    <div class=\"push\"></div>\n\n  </div>\n\n\n  <div class=\"footer\">\n      <div class=\"container_footer\">\n        <div class=\"social\">\n          <a href=\"https://www.facebook.com/patternsintime/\" target=\"_blank\"><img src=\"images/facebook25x25.png\" id=\"facebook\" alt=\"Social Media\" title=\"Facebook\" /></a>\n          <a href=\"https://www.instagram.com/patternsbyalexandru/\" target=\"_blank\"><img src=\"images/instagram25x25.png\" alt=\"Social Media\" title=\"Instagram\" /></a>\n        </div>\n        <h5>&#169;2017 Alexandru Marinescu</h5>\n        <h5 id=\"connect\">Let's connect on:</h5>\n      </div>\n  </div>\n\n<script src=\"image.js\"></script>\n<script src=\"filter_for_social.js\"></script>\n\n</body>\n</html>\n\n\n",
+			"file": "social_events.html",
+			"file_size": 4969,
+			"file_write_time": 131450398590000000,
+			"settings":
+			{
+				"buffer_size": 4969,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles.css",
+			"settings":
+			{
+				"buffer_size": 8724,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "var links = document.querySelectorAll('.filters a');\nvar crtLink = document.querySelector('.selected');\nfor (var i = 0; i < links.length; i++) {\n\tlinks[i].addEventListener('click', filterImage);\n}\n\nfunction filterImage(e) {\n\te.preventDefault();\n\tcrtLink.className = '';\n\tcrtLink = this;\n\tcrtLink.className = 'selected';\n\n\tvar filter = this.dataset.filter;\n\n\tif (!filter) {\n\t\tvar showImages = document.querySelectorAll('.image img');\n\t\tvar hideImages = [];\n\t}\n\telse {\n\t\tvar showImages = document.querySelectorAll('[data-category*=\"' + filter + '\"]');\n\t\tvar hideImages = document.querySelectorAll('.image img:not([data-category*=\"' + filter + '\"])');\n\t}\n\n\tfor (var i = 0; i < hideImages.length; i++) {\n\t\thideImages[i].parentNode.style.display = 'none';\n\t}\n\tfor (var i = 0; i < showImages.length; i++) {\n\t\tshowImages[i].parentNode.style.display = 'block';\n\t}\n}",
+			"file": "filter.js",
+			"file_size": 857,
+			"file_write_time": 131450306100000000,
+			"settings":
+			{
+				"buffer_size": 857,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contact.js",
+			"settings":
+			{
+				"buffer_size": 1666,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/macbook/Documents/Web Development/Examen JavaScript - 26 Iulie 2017"
+	],
+	"file_history":
+	[
+		"/Users/macbook/Documents/Web Development/Examen JavaScript - 26 Iulie 2017/contact.html",
+		"/Users/macbook/Documents/Web Development/Examen JavaScript - 26 Iulie 2017/contact.js",
+		"/Users/macbook/Documents/Web Development/Examen JavaScript - 26 Iulie 2017/social_events.html",
+		"/Users/macbook/Documents/Web Development/Examen JavaScript - 26 Iulie 2017/image.js",
+		"/Users/macbook/Documents/Web Development/Examen JavaScript - 26 Iulie 2017/filter_for_social.js",
+		"/Users/macbook/Documents/Web Development/Examen JavaScript - 26 Iulie 2017/filter.js",
+		"/Users/macbook/Documents/Web Development/Examen JavaScript - 26 Iulie 2017/parties.html",
+		"/Users/macbook/Documents/Web Development/Examen JavaScript - 26 Iulie 2017/gallery2.js",
+		"/Users/macbook/Documents/Web Development/Examen JavaScript - 26 Iulie 2017/index.html",
+		"/Users/macbook/Documents/Web Development/Examen JavaScript - 26 Iulie 2017/gallery.js",
+		"/Users/macbook/Documents/Web Development/Examen JavaScript - 26 Iulie 2017/styles.css",
+		"/Users/macbook/Documents/Web Development/Exercitii Javascript/exercitii w3resource.html",
+		"/Users/macbook/Documents/Web Development/Exercitii Javascript/muie.html",
+		"/Users/macbook/Documents/Web Development/Exercitii Javascript/snake.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/04. Aplicatii modificate/3. Aplicatii site (JavaScript) (content)/galerie-foto.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/04. Aplicatii modificate/3. Aplicatii site (JavaScript) (content)/gallery.js",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/04. Aplicatii modificate/3. Aplicatii site (JavaScript) (content)/filters.js",
+		"/Users/macbook/Documents/Web Development/Exercitii Javascript/galerie poze.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/04. Aplicatii/4. Aplicatii site (JavaScript) (finished)/gallery.js",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/04. Aplicatii/4. Aplicatii site (JavaScript) (finished)/index.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/04. Aplicatii modificate/1. Navigatie tab-uri (content)/index.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/04. Aplicatii modificate/1. Navigatie tab-uri (content)/tabnavacasa.js",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/04. Aplicatii modificate/1. Navigatie tab-uri (content)/tabnav.js",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/01. JavaSctipt/04. Selectia elementelor.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/01. JavaSctipt/exercitii 30 Iunie 2017.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/ex4 2.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/01. JavaSctipt/03. Instructiuni repetitive.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/01. JavaSctipt/01. Introducere.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/deplasarea unui element animat Pagina 30.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/deplasarea unui element pe verticala.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/exercitiuPagina51.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/ciclu de viata.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/extensiefisier pagina 22.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/ex7.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/ex6.html",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/ex5.html",
+		"/Users/macbook/Documents/Web Development/Blog/main.js",
+		"/Users/macbook/Documents/Web Development/Fisiere Curs JavaSctipt - Absolute School/ex1.html",
+		"/Users/macbook/Documents/Web Development/Blog/Articles/OneOnOne/haveyoubeenonablinddate.html",
+		"/Users/macbook/Documents/Web Development/Blog/Articles/OneOnOne/template_single_story_oneonone.html",
+		"/Users/macbook/Documents/Web Development/Blog/Articles/Inspiration/whowasyourhero.html",
+		"/Users/macbook/Documents/Web Development/Blog/Articles/DayByDay/template_single_story_daybyday.html",
+		"/Users/macbook/Documents/Web Development/Blog/Articles/DayByDay/shavearms.html",
+		"/Users/macbook/Documents/Web Development/Blog/Articles/DayByDay/nomorestressrelatedrashes.html",
+		"/Users/macbook/Documents/Web Development/Blog/Articles/DayByDay/lifesavinghacks.html",
+		"/Users/macbook/Documents/Web Development/Blog/Articles/DayByDay/haveyoutriedtennis.html",
+		"/Users/macbook/Documents/Web Development/Blog/yourstruly.html",
+		"/Users/macbook/Documents/Web Development/Blog/template_single_story.html",
+		"/Users/macbook/Documents/Web Development/Blog/oneonone.html",
+		"/Users/macbook/Documents/Web Development/Blog/inspiration.html",
+		"/Users/macbook/Documents/Web Development/Blog/getintouch.html",
+		"/Users/macbook/Documents/Web Development/Blog/daybyday.html",
+		"/Users/macbook/Documents/Web Development/Blog/styles.css",
+		"/Users/macbook/Documents/Web Development/Blog/index.html",
+		"/Users/macbook/Documents/Web Development/Blog/Articles/OneOnOne/datingafter30.html",
+		"/Users/macbook/Documents/Web Development/Blog/boysintheir30s.sublime-project",
+		"/Users/macbook/Documents/Web Development/Exercitii Javascript/exercitiijs4.html",
+		"/Users/macbook/Documents/Web Development/Exercitii Javascript/exercitiijs3.html",
+		"/Users/macbook/Documents/Web Development/Exercitii Javascript/exercitiijs2.html",
+		"/Users/macbook/Documents/Web Development/Exercitii Javascript/exercitiijs.html",
+		"/Users/macbook/Documents/Web Development/Examen Web Design - Mai 2017/styles.css",
+		"/Users/macbook/Documents/Web Development/Examen Web Design - Mai 2017/index.html",
+		"/Users/macbook/Documents/Web Development/Examen Web Design - Mai 2017/wandering.html",
+		"/Users/macbook/Documents/Web Development/Examen Web Design - Mai 2017/sports_events.html",
+		"/Users/macbook/Documents/Web Development/Examen Web Design - Mai 2017/social_events.html",
+		"/Users/macbook/Documents/Web Development/Examen Web Design - Mai 2017/parties.html",
+		"/Users/macbook/Documents/Web Development/Examen Web Design - Mai 2017/contact.html",
+		"/Users/macbook/Documents/Web Development/Examen Web Design - Mai 2017/about.html",
+		"/Users/macbook/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/macbook/Library/Application Support/Sublime Text 3/Packages/Default/Distraction Free.sublime-settings",
+		"/Users/macbook/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/macbook/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/macbook/Documents/Web Development/Examen Web Design - Mai 2017/template.html",
+		"/Users/macbook/Downloads/frontend-nanodegree-resume-master/js/resumeBuilder.js",
+		"/Users/macbook/Documents/Web Development/testejavascript.html",
+		"/Users/macbook/Documents/Web Development/Project 3 - Test Patterns/styles.css",
+		"/Users/macbook/Documents/Web Development/Project 3 - Test Patterns/index.html",
+		"/Users/macbook/Documents/Web Development/Exercitii Cursuri Absolute School/Pagina Agentie Turism/exercitiu16.css",
+		"/Users/macbook/Documents/Web Development/Exercitii Cursuri Absolute School/Pagina Agentie Turism/exercitiu16.html",
+		"/Users/macbook/Documents/Web Development/Exercitii Cursuri Absolute School/exercitiu15.html",
+		"/Users/macbook/Documents/Web Development/Portfolio Page/main.css",
+		"/Users/macbook/Documents/Web Development/Portfolio Page/index.html",
+		"/Users/macbook/Documents/Web Development/Exercitii Cursuri Absolute School/Exercitiu 11.html",
+		"/Users/macbook/Documents/Web Development/Exercitii Cursuri Absolute School/exercitii12-14.html",
+		"/Users/macbook/Documents/Web Development/Exercitii Cursuri Absolute School/exercitii1-7.html",
+		"/Users/macbook/Documents/Web Development/Exercitii Cursuri Absolute School/exercitiu9.html",
+		"/Users/macbook/Documents/Web Development/Exercitii Cursuri Absolute School/exercitiu12.html",
+		"/Users/macbook/Documents/Web Development/Exercitii Cursuri Absolute School/ex8contact.html",
+		"/Users/macbook/Documents/Web Development/Exercitii Cursuri Absolute School/ex8despre_noi.html",
+		"/Users/macbook/Documents/Web Development/Exercitii Cursuri Absolute School/exercitiu8.html",
+		"/Users/macbook/Documents/Web Development/Portfolio Page/scriptName.js",
+		"/Users/macbook/Documents/Web Development/Project 1/Styles/main.css",
+		"/Users/macbook/Documents/Web Development/Project 1/index.html",
+		"/Users/macbook/Documents/Web Development/Project 1/contact.html",
+		"/Users/macbook/Documents/Web Development/Project 1/about.html",
+		"/Users/macbook/Documents/Web Development/Project 1/main.css",
+		"/Applications/MAMP/htdocs/phptutorial/hello.html",
+		"/Users/macbook/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Applications/MAMP/htdocs/phptutorial/index.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"textarea",
+			"selected",
+			"image",
+			"h3",
+			"image",
+			"container",
+			"left",
+			"\n}",
+			"');\n",
+			"return",
+			">",
+			"png",
+			"'')",
+			"png",
+			"5"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "social_events.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4969,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 548.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5532,
+								5532
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "filter.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								857,
+								857
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "contact.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1666,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "examenJavascript.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 137.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

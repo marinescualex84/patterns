@@ -1,0 +1,549 @@
+* {
+	margin-top: 0;
+}
+
+body, html {
+	height: 100%;
+	min-width: 1140px;
+}
+
+.page {
+	min-height: 100%;
+}
+
+.header {
+	background-color: #f9f9f9;
+	height: 70px;
+	margin-bottom: 60px; /*pentru a crea un spatiu gol, pana la primul citat */
+}
+
+.container, .container_footer {
+	width: 1140px;
+	margin: auto;
+	clear: both;
+}
+
+.container_footer {
+	height: 40px;
+	background-color: #f9f9f9;
+	border-radius: 15px;
+}
+
+.footer {
+	margin-top: -40px;
+}
+
+.logo img {
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.infopage p {
+	text-align: right;
+	margin-right: 5px;
+	font-family: Andale Mono, Verdana;
+	color: #777;
+	text-shadow: 0.5px 0.5px;
+	font-size: 13px;
+}
+
+.nav {
+	float: right;
+	height: 20px;
+	margin-top: 4px;
+}
+
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+.nav ul li {
+	float: left;
+	position: relative;
+	margin-right: 5px;
+	margin-left: 70px;
+
+}
+
+.nav ul li a {
+	display: block;
+	color: #222;
+	font-weight: bold;
+	text-decoration: none;
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+	font-family: Georgia;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.nav ul li a:hover {
+	color: #9e9b1e;
+}
+
+.nav ul li ul {
+	position: absolute;  /* .nav ul li  trebuie sa aiba  position: relative; si pentru a se suprapune celorlalte elemente de pe pagina */
+	left: -70px;         /* funtioneaza numai daca definim si position: absolute; */
+	padding-top: 10px;   /* pentru a nu avea un spatiu gol intre Portfolio si lista */
+	white-space: nowrap; /* pentru a afisa cuvintele normal, nesuprapuse (wrapped) */
+	display: none;       /*pentru a ascunde meniul */
+	z-index: 1;			 /* pentru ca submeniul sa se afiseze deasupra paragrafului de dedesubt */
+}
+
+.nav ul li:hover ul {
+	display: block;      /*pentru a afisa meniul */
+}
+
+.nav ul li ul li {
+	float:none;
+	padding-bottom: 10px;
+}
+
+.nav ul li ul li a {
+	font-size: 13px;
+	background-color: #fff;
+	border-radius: 15px;
+	padding: 0 10px;
+	margin-left: -10px;
+}
+
+.vertical-text {
+	width: 12px;
+	height: 475px;
+	font-size: 13px;
+	word-wrap: break-word;
+	text-transform: uppercase;
+	top:50%;
+	margin-top: -232.5px;
+	left: 0;
+	position: fixed;
+	text-align: center;
+	background-color: #e8e42c;
+	opacity: 0.3;
+	border-radius: 4px;
+}
+
+.vertical-text:hover {
+	opacity: 1;
+	transition: 1s;
+	color: #fff;
+	background-color: #00bf35;
+	border-radius: 5px;
+	box-shadow: 0 0 2px 2px #555;
+	font-weight: bold;
+	padding: 5px;
+}
+
+/*  ------------   CITATUL    ---------------- */
+
+.quote p {
+	font-size: 18px;
+	color: #888;
+	opacity: 1;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-top: 30px;
+	background-color: #f9f9f9;
+	border-radius: 15px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	margin-bottom: 0px;
+}
+
+/*
+.quote .p_even {
+	text-align: right;
+	padding-right: 20px;
+}
+*/
+
+/* --------------   GALERIA de pe prima pagina   ----------------- */
+
+.slide {
+	height: 560px;
+	padding: 30px 0 40px 0;
+	background-color: #f9f9f9;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+
+.slide .main_gallery {
+	position: relative;
+	height: 560px;
+	width: 800px;
+	box-shadow: -5px 0px 5px #888, 5px 0px 5px rgb(87, 142, 94), 0 -5px 5px rgb(87, 142, 94);
+}
+
+.main_gallery {
+	margin-left: 170px;
+}
+
+.slide img {
+	width: 800px;
+	position: absolute;
+	z-index: 0;
+}
+
+.slide img.visible {
+	z-index: 2;
+}
+
+.slide img.next {
+	z-index: 1;
+}
+
+
+/* .main_sub_gallery {
+	float: left;
+	width: 510px;
+	margin-left: 40px;
+}
+
+.main_sub_gallery img {
+	width: 510px;
+	height: auto;
+	box-shadow: 0 0 6px 6px #889188;
+}
+*/
+
+.controls {
+	text-align: center;
+	background-color: #f9f9f9;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.controls a {
+	width: 10px;
+	height: 10px;
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-bottom: 30px;
+	border-radius: 50%;
+	border: 4px solid rgb(87, 142, 94);
+	text-indent: -10000px;
+	display: inline-block;
+	background-color: #f9f9f9;
+}
+
+.controls a.current {
+	background-color: rgb(58, 145, 77);
+	border-color: rgb(69, 109, 73);
+}
+
+.controls a:hover {
+	border-color: rgb(69, 109, 73);
+}
+
+.push {
+	height: 100px;
+	clear:both;
+}
+
+.social {
+	height: 25px;
+	float: right;
+	margin-top: 7.5px;
+}
+
+
+.social a img {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	margin-left: 0px;
+	margin-right: 40px;
+	border-radius: 5px;
+}
+
+#facebook {
+	margin-right: 5px;
+}
+
+.social a img:hover {
+	opacity: 0.7;
+	transition: 0.3s;
+	box-shadow: 0 0 3px 3px #999;
+}
+
+.container_footer h5 {
+	line-height: 40px;
+	margin-left: 40px;
+	color: #222;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+#connect {
+	margin-left: 670px;
+}
+
+
+/*  --------------------- ABOUT.HTML begins here --------------- */
+
+.page_title {
+	margin-left: 40px;
+	color: #222;
+	letter-spacing: 1px;
+	font-size: 1.5em;
+	padding: 10px 0;
+	width: 300px;
+}
+
+.about_section{
+	width: 580px;
+	margin-left: 30px;
+	display: inline-block;
+	background-color: #f9f9f9;
+	padding: 10px;
+	border-radius: 15px;
+	font-family: Georgia;
+	color: #222;
+	text-align: justify;
+}
+
+.about_picture {
+	width: 440px;
+	height: auto;
+	float: right;
+	margin-right: 40px;
+}
+
+.about_picture img {
+	box-shadow: 0 0 5px 5px #889188;
+}
+
+
+/* -------------------------- CONTACT.HTML begins here -------------- */
+
+.about_section a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #444;
+}
+
+.about_section a:hover {
+	border-radius: 10px;
+	transition: 0.6s;
+	padding: 0 2px;
+	color: #000;
+}
+
+.contact_form {
+	width: 340px;
+	height: 349px;
+	margin-right: 40px;
+	float: right;
+	background-color: #f9f9f9;
+	border-radius: 15px;
+}
+
+
+#form1 p {
+	margin-bottom: 19px;
+}
+
+.contact_form form {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.contact_form h2 {
+	text-align: center;
+	color: #333;
+	font-size: 1.1em;
+	padding: 10px 0 2px 0; 
+	font-family: Georgia;
+	letter-spacing: 0.5px;
+}
+
+.contact_form form label {
+	color: #333;
+	font-family: Georgia;
+	margin-right: 10px;
+}
+
+.contact_form form p {
+	text-align: right;	
+}
+
+.contact_form input[type="text"], .contact_form input[type="email"], 
+.contact_form textarea {
+	width: 210px;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 12px;
+	border: 1px solid #777;
+}
+
+.contact_form input[type="email"], .contact_form #subject, .contact_form textarea {
+	padding-top: 5px;
+}
+
+.contact_form input[type="text"]:hover, .contact_form input[type="email"]:hover, 
+.contact_form textarea:hover {
+	box-shadow: 0 0 2px 2px #a0a0a0;
+	transition: 0.5s;
+}
+
+.contact_form input[type="text"]:focus, .contact_form input[type="email"]:focus, 
+.contact_form textarea:focus {
+	outline: none;
+	box-shadow: 0 0 2px 2px rgba(160, 160, 160, 0.6);
+}
+
+.textarea_message * {			/* pentru ca textul "Message" sa fie la jumatatea chenarului */
+	vertical-align: middle;
+	height: 100px;
+}
+
+.contact_form input[type="submit"], .contact_form input[type="reset"] {
+	border: 0.5px solid #777;
+	width: 80px;
+	margin-left: 100px;
+	margin-top: 12px;
+	background-color: #fff;
+	padding: 2px;
+	font-size: 14px;
+	font-family: Georgia;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.contact_form input[type="reset"] {
+	margin-left: 15px;
+}
+
+.error {
+	background-color: rgb(224, 49, 49);
+	color: white;
+	font-size: 15px;
+	border-radius: 5px;
+	padding: 1px 4px;
+}
+
+/*
+.contact_form input[type="submit"]:hover {
+	margin-left: 120px;
+	margin-bottom: 5px;
+	box-shadow: 0 5px 0 #666;
+}
+*/
+
+
+/* ------------------- SOCIAL_EVENTS.HTML & rest of portfolio begins here --------  */
+
+
+.container a.page_title_a, .selected, .container a {
+	text-decoration: none;
+}
+
+.ambele {
+	margin: auto;
+	width: 1140px;
+	clear: both;
+}
+
+.ambele a {
+	text-decoration: none;
+
+}
+
+.ambele h3:hover {
+	color: #888;
+}
+
+.page_title:hover {
+	color: #888;
+}
+
+.ambele .container {
+	float:left;
+}
+
+.event_name {
+	width: 350px;
+	margin-left: 40px;
+/*	float:left;  */
+}
+
+.event_name h3 {
+	padding: 5px 10px;
+	margin-left: -10px;
+	color: #333;
+	background-color: #f9f9f9;
+	border-radius: 15px;
+}
+
+.event_photos_container {
+	width: 510px;
+	margin-left: 600px;
+	float: left;
+	position: relative;	
+}
+
+.event_photos_container.parties_photos1 {
+	margin-left: 40px;
+}
+
+.event_photos_container.parties_photos2 {
+	margin-left: 40px;
+}
+
+.parties1, .parties2 {
+	width: 570px;
+	float: left;
+}
+
+.event_photos_container img {
+	margin-bottom: 40px;
+	box-shadow: 0 0 6px 6px #889188;
+}
+
+/*
+.event_photos_container img:hover {
+	box-shadow: 0 0 10px 14px #b3bcb3;
+	width: 570px;
+	height: auto;
+	margin-left: -30px;
+}
+*/
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 10000;
+	background-color: rgba(153,153,153,0.7);
+	display: none;
+}
+
+.overlay img {
+	position: absolute;
+	z-index: 10001;
+	top: 50%;
+	left: 50%;
+	background-color: #fff;
+	border: 3px solid #333;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+
+.image {
+	position: relative;
+}
+
+
+
+
